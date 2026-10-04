@@ -1,0 +1,105 @@
+{
+  "kpis": {
+    "nov_late_rate": 0.1431119648737651,
+    "pre_nov_late_rate": 0.044427343754939216,
+    "nov_review": 3.9493206521739133,
+    "yoy_revenue_growth": 1.382795488238434,
+    "yoy_order_growth": 1.3725733534261146,
+    "peak_day": "2017-11-24",
+    "peak_day_orders": 1166,
+    "peak_multiple": 4.713650451421641,
+    "late_share": 0.07994865586909333,
+    "late_review": 2.565069834225297,
+    "ontime_review": 4.294114310992139,
+    "late_bad": 0.5406604881869208,
+    "ontime_bad": 0.09221555527829135,
+    "stratified_gap": -1.6215998115492738,
+    "worst_states": "CE (15%), BA (14%), RJ (13%)",
+    "repeat_rate": 0.030394912773864798,
+    "customers": 94983,
+    "n_cats": 74,
+    "n_cats_50": 8,
+    "n_cats_80": 18,
+    "top_categories": "health beauty, watches gifts, bed bath table"
+  },
+  "late_vs_on_time_test": {
+    "late_orders": 7661,
+    "on_time_orders": 88163,
+    "mean_difference": -1.729044476766842,
+    "ci_low": -1.7669513397005023,
+    "ci_high": -1.6904832194099164,
+    "mann_whitney_p": 0.0
+  },
+  "stratified_by_state": [
+    {
+      "group": "BA",
+      "n": 3229,
+      "gap": -1.586
+    },
+    {
+      "group": "CE",
+      "n": 1273,
+      "gap": -2.063
+    },
+    {
+      "group": "DF",
+      "n": 2070,
+      "gap": -1.862
+    },
+    {
+      "group": "ES",
+      "n": 1969,
+      "gap": -1.535
+    },
+    {
+      "group": "GO",
+      "n": 1946,
+      "gap": -1.734
+    },
+    {
+      "group": "MA",
+      "n": 712,
+      "gap": -1.772
+    },
+    {
+      "group": "MG",
+      "n": 11285,
+      "gap": -1.614
+    },
+    {
+      "group": "PA",
+      "n": 933,
+      "gap": -2.03
+    },
+    {
+      "group": "PE",
+      "n": 1579,
+      "gap": -2.018
+    },
+    {
+      "group": "PR",
+      "n": 4900,
+      "gap": -1.396
+    },
+    {
+      "group": "RJ",
+      "n": 12211,
+      "gap": -2.115
+    },
+    {
+      "group": "RS",
+      "n": 5326,
+      "gap": -1.802
+    },
+    {
+      "group": "SC",
+      "n": 3519,
+      "gap": -1.672
+    },
+    {
+      "group": "SP",
+      "n": 40266,
+      "gap": -1.421
+    }
+  ]
+}
